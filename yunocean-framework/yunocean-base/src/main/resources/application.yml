@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: test
+swagger:
+  production: false
+  basic:
+    enable: true
+    username: admin
+    password: admin

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MultiProperties xmlns="hu.skzs.multiproperties">
+    <Version>1.2</Version>
+    <Name>language</Name>
+    <Description>国际化配置文件</Description>
+    <Handler>Java Properties Handler</Handler>
+    <Columns>
+        <Key>
+            <Width>347</Width>
+        </Key>
+        <Column>
+            <Name>en_US</Name>
+            <Description></Description>
+            <Width>283</Width>
+            <HandlerConfiguration>/yunocean-base/src/main/resources/i18n/messages_en_US.properties|false|false|false|false|UTF-8</HandlerConfiguration>
+        </Column>
+        <Column>
+            <Name>zh_CN</Name>
+            <Description></Description>
+            <Width>296</Width>
+            <HandlerConfiguration>/yunocean-base/src/main/resources/i18n/messages_zh_CN.properties|false|false|false|false|UTF-8</HandlerConfiguration>
+        </Column>
+        <Column>
+            <Name></Name>
+            <Description></Description>
+            <Width>150</Width>
+            <HandlerConfiguration>/yunocean-base/src/main/resources/i18n/messages.properties|false|false|false|false|UTF-8</HandlerConfiguration>
+        </Column>
+    </Columns>
+    <Records>
+        <Comment>
+            <Value>System</Value>
+        </Comment>
+        <Property>
+            <Name>login.usernamepassword.error</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>用户名或密码错误</DefaultValue>
+            <Value disabled="false">Wrong username or password</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>usernamepassword.notnull</Name>
+            <Description></Description>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>用户名或密码不能为空</DefaultValue>
+            <Value disabled="false">Username or password cannot be empty</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>sys.success</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>操作成功</DefaultValue>
+            <Value disabled="false">Successful operation</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>sys.error</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>系统错误</DefaultValue>
+            <Value disabled="false">System error</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>account.not.exist</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>账户不存在</DefaultValue>
+            <Value disabled="false">Account does not exist</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>account.disabled</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>账号被禁用</DefaultValue>
+            <Value disabled="false">Account is disabled</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>account.not.login</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>账号未登录</DefaultValue>
+            <Value disabled="false">Account is not logged in</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>account.length.error</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>账号长度错误，长度要为6-16个字符</DefaultValue>
+            <Value disabled="false">Account length is wrong, the length must be 6-16 characters</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>parameter.error</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>参数错误</DefaultValue>
+            <Value disabled="false">Parameter error</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>parameter.empty</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>参数为空</DefaultValue>
+            <Value disabled="false">Parameter is empty</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>verification.error</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>验证码错误</DefaultValue>
+            <Value disabled="false">Verification code error</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>parameter.exists</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>参数已存在</DefaultValue>
+            <Value disabled="false">Parameter already exists</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>operation.error</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>操作失败</DefaultValue>
+            <Value disabled="false">Operation failed</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>operation.right.never</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>没有操作权限</DefaultValue>
+            <Value disabled="false">No operation rights</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>authentication.failed</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>认证失败</DefaultValue>
+            <Value disabled="false">Authentication failed</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>duplicate_data</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>重复数据</DefaultValue>
+            <Value disabled="false">Duplicate data</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Property>
+            <Name>other.error</Name>
+            <Disabled>false</Disabled>
+            <MultiLine>false</MultiLine>
+            <DefaultValue>其他错误</DefaultValue>
+            <Value disabled="false">Other errors</Value>
+            <Value disabled="true"></Value>
+            <Value disabled="true"></Value>
+        </Property>
+        <Comment>
+            <Value>System End</Value>
+        </Comment>
+    </Records>
+</MultiProperties>
